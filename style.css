@@ -1,0 +1,64 @@
+
+a:link{
+    color:green;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    opacity:1;
+    background-color: black;
+    color: blueviolet;
+}
+a:active{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    margin-top: 5px;
+    display: inline-block;
+    border-radius:0 10px 0 10px;
+    padding: 10px;
+    border:2px solid green ;
+}
+.list{
+    list-style-type: square;
+}
+
+ol{
+
+    list-style-type:lower-roman ;
+    list-style-position: outside;
+    background-color: blueviolet;
+}
+li{
+    background-color: brown;
+    padding: 5px;
+}
+table{
+    width: 50%;
+}
+table,th,td{
+
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+th{
+    height: 50%;
+}
+td{
+    text-align: left;
+    vertical-align:baseline;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+tr:nth-child(odd){
+ background-color:rebeccapurple;
+}
+th:nth-child(1){
+    background-color: blue;
+}
+th:nth-child(2){
+    background-color: blue;
+}
